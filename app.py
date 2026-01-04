@@ -7,7 +7,7 @@ if "GOOGLE_API_KEY" in st.secrets:
 else:
     st.error("Configure a GOOGLE_API_KEY nos Secrets do Streamlit.")
 
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-pro')
 
 # 2. Interface do Usuário
 st.set_page_config(page_title="Beta Kofrinho", page_icon="💰")
